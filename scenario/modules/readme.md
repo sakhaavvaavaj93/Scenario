@@ -36,6 +36,16 @@ __help__ = """
 ```
 
 ## Advanced: PTB
-```
-PTB 13.7 Comming Soon
+```python3
+from scenario import dispatcher
+from telegram import Update
+from telegram.ext import CallbackContext, CommandHandler
+
+def hello(update: Update, context: CallbackContext):
+    message = update.effective_message
+    text = "Hey bro wassup?"
+    update.message.reply_text(text)
+
+dispatcher.add_handler(CommandHandler("hello", hello, run_async=True))
+
 ```
