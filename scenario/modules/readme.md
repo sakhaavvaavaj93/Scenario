@@ -37,7 +37,7 @@ __help__ = """
 
 ## Advanced: PTB
 ```python3
-from scenario import dispatcher
+from . import dispatcher
 from telegram import Update
 from telegram.ext import CallbackContext, CommandHandler
 
