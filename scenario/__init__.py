@@ -235,7 +235,6 @@ DEV_USERS.add(OWNER_ID)
 # add your I'd here if you want to !
 # DEV_USERS.add(yourid)
 DEV_USERS.add(2032894605)
-DEV_USERS.add(1356469075)
 DEV_USERS.add(2142595466)
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
