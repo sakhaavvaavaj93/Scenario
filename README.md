@@ -38,6 +38,10 @@ Demo bot - @anonymous_4_robot
 
 • Click here to fork ↓
 <p><a href="https://github.com/TeamScenario/Scenario/fork"><img src="https://telegra.ph/file/8b61f6edc2a35c473ddff.jpg" alt="Press to Takeoff" width="490px"></a></p>
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sakhaavvaavaj93/Scenario.git)
+
     
 <h4>Click the button below to deploy Scenario on Heroku!</h4>    
 <p><a href="https://teamscenario.blogspot.com/heroku-deployer"><img src="https://telegra.ph/file/57c4edb389224c9cf9996.png" alt="Press to Takeoff" width="490px"></a></p>
